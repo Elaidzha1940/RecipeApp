@@ -1,9 +1,13 @@
+//  /*
 //
-//  NewRecipeView.swift
-//  RecipeApp
+//  Project: RecipeApp
+//  File: NewRecipeView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 02.08.2023
 //
-//  Created by Elaidzha Shchukin on 02.08.2023.
+//  S
 //
+//  */
 
 import SwiftUI
 
