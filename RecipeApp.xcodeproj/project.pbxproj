@@ -53,7 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				E4B6829A2A79A65900856171 /* RecipeAppApp.swift */,
-				E4B6829C2A79A65900856171 /* ContentView.swift */,
+				E4B682AB2A79C52E00856171 /* Views */,
+				E4B682AA2A79C52200856171 /* ViewModels */,
+				E4B682A92A79C51600856171 /* Models */,
 				E4B6829E2A79A65A00856171 /* Assets.xcassets */,
 				E4B682A02A79A65A00856171 /* RecipeApp.entitlements */,
 				E4B682A12A79A65A00856171 /* Preview Content */,
@@ -67,6 +69,52 @@
 				E4B682A22A79A65A00856171 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4B682A92A79C51600856171 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4B682AA2A79C52200856171 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4B682AB2A79C52E00856171 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4B682AE2A79C55200856171 /* Main */,
+				E4B682AD2A79C54800856171 /* Detail */,
+				E4B682AC2A79C53F00856171 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4B682AC2A79C53F00856171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E4B682AD2A79C54800856171 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E4B682AE2A79C55200856171 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4B6829C2A79A65900856171 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
