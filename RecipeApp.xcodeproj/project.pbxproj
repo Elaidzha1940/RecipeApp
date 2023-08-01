@@ -11,6 +11,11 @@
 		E4B6829D2A79A65900856171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6829C2A79A65900856171 /* ContentView.swift */; };
 		E4B6829F2A79A65A00856171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B6829E2A79A65A00856171 /* Assets.xcassets */; };
 		E4B682A32A79A65A00856171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B682A22A79A65A00856171 /* Preview Assets.xcassets */; };
+		E4B682B02A79C60300856171 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B682AF2A79C60300856171 /* HomeView.swift */; };
+		E4B682B22A79C61200856171 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B682B12A79C61200856171 /* CategoriesView.swift */; };
+		E4B682B42A79C62600856171 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B682B32A79C62600856171 /* NewRecipeView.swift */; };
+		E4B682B62A79C63500856171 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B682B52A79C63500856171 /* FavoritesView.swift */; };
+		E4B682B82A79C64100856171 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B682B72A79C64100856171 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		E4B6829E2A79A65A00856171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B682A02A79A65A00856171 /* RecipeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecipeApp.entitlements; sourceTree = "<group>"; };
 		E4B682A22A79A65A00856171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4B682AF2A79C60300856171 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E4B682B12A79C61200856171 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		E4B682B32A79C62600856171 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		E4B682B52A79C63500856171 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E4B682B72A79C64100856171 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				E4B6829C2A79A65900856171 /* ContentView.swift */,
+				E4B682AF2A79C60300856171 /* HomeView.swift */,
+				E4B682B12A79C61200856171 /* CategoriesView.swift */,
+				E4B682B32A79C62600856171 /* NewRecipeView.swift */,
+				E4B682B52A79C63500856171 /* FavoritesView.swift */,
+				E4B682B72A79C64100856171 /* SettingsView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -187,6 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B682B82A79C64100856171 /* SettingsView.swift in Sources */,
+				E4B682B22A79C61200856171 /* CategoriesView.swift in Sources */,
+				E4B682B42A79C62600856171 /* NewRecipeView.swift in Sources */,
+				E4B682B62A79C63500856171 /* FavoritesView.swift in Sources */,
+				E4B682B02A79C60300856171 /* HomeView.swift in Sources */,
 				E4B6829D2A79A65900856171 /* ContentView.swift in Sources */,
 				E4B6829B2A79A65900856171 /* RecipeAppApp.swift in Sources */,
 			);
