@@ -17,6 +17,7 @@ struct FavoritesView: View {
         NavigationView {
             
             Text("You have not saved any resipe to your favorites yet.")
+                .padding()
                 .navigationTitle("Favorites")
     
         }
