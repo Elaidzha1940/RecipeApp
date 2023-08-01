@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 02.08.2023
 //
-//  S
+//  Status: in progress | Decorated
 //
 //  */
 
@@ -18,8 +18,8 @@ struct HomeView: View {
             
             Text("My Recipe")
                 .navigationTitle("My Recipe")
-    
         }
+        .navigationViewStyle(.stack)
     }
 }
 

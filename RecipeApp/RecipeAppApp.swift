@@ -1,9 +1,13 @@
+//  /*
 //
-//  RecipeAppApp.swift
-//  RecipeApp
+//  Project: RecipeApp
+//  File: RecipeAppApp.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 01.08.2023
 //
-//  Created by Elaidzha Shchukin on 01.08.2023.
+//  Status: in progress | Decorated
 //
+//  */
 
 import SwiftUI
 

@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 02.08.2023
 //
-//  S
+//  Status: in progress | Decorated
 //
 //  */
 
@@ -16,8 +16,9 @@ struct SettingsView: View {
         
         NavigationView {
             Text("v1.0.0")
+                .navigationTitle("Settings")
         }
-        .navigationTitle("Settings")
+        .navigationViewStyle(.stack)
     }
 }
 

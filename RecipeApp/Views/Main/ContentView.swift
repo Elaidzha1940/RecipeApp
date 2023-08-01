@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 01.08.2023
 //
-//  S
+//  Status: in progress | Decorated
 //
 //  */
 
@@ -15,9 +15,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            
-            Image(systemName: "globe")
-               
+            TabBar()
         }
     }
 }

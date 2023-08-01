@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 02.08.2023
 //
-//  S
+//  Status: in progress | Decorated
 //
 //  */
 
@@ -19,8 +19,8 @@ struct FavoritesView: View {
             Text("You have not saved any resipe to your favorites yet.")
                 .padding()
                 .navigationTitle("Favorites")
-    
         }
+        .navigationViewStyle(.stack)
     }
 }
 
