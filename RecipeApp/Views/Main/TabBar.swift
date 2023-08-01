@@ -24,22 +24,22 @@ struct TabBar: View {
             
             CategoriesView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
                 }
             
             NewRecipeView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("NewRecipe", systemImage: "plus.app")
                 }
             
             FavoritesView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Favorites", systemImage: "heart")
                 }
             
             SettingsView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Settings", systemImage: "gear")
                 }
             
         }
