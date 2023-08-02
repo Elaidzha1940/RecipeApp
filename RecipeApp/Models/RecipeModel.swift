@@ -43,7 +43,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -55,7 +55,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -67,7 +67,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -79,7 +79,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -91,7 +91,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -103,7 +103,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",
@@ -115,7 +115,7 @@ extension Recipe {
         
         Recipe(
             
-            name: "",
+            name: "Cake",
             image: "",
             description: "",
             ingredients: "",

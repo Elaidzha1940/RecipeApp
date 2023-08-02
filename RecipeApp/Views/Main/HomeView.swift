@@ -16,8 +16,10 @@ struct HomeView: View {
         
         NavigationView {
             
-            Text("My Recipe")
-                .navigationTitle("My Recipe")
+            List(Recipe.all) { recipe in
+                Text(recipe.name)
+                    .navigationTitle("My Recipe")
+            }
         }
         .navigationViewStyle(.stack)
     }
