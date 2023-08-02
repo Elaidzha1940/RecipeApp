@@ -43,7 +43,7 @@ struct RecipeView: View {
                     .multilineTextAlignment(.center)
                 
                 VStack(alignment: .leading, spacing: 30) {
-                    if !recipe.directions.isEmpty {
+                    if !recipe.description.isEmpty {
                         Text(recipe.description)
                     }
                     
@@ -51,6 +51,7 @@ struct RecipeView: View {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Ingredients")
                                 .font(.headline)
+                            
                             Text(recipe.description)
                         }
                     }
@@ -59,6 +60,7 @@ struct RecipeView: View {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Directions")
                                 .font(.headline)
+                            
                             Text(recipe.directions)
                         }
                     }
