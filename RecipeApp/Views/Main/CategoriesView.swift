@@ -18,10 +18,7 @@ struct CategoriesView: View {
             List {
                 ForEach(Category.allCases) { category in
                     NavigationLink {
-                        ScrollView {
-                            RecipeList(recipes: Recipe.all.filter{ $0.category == category.rawValue})
-                        }
-                        .navigationTitle(category.rawValue + "s")
+                      CategoryView(category: category)
                     } label: {
                         Text(category.rawValue + "s")
                         
