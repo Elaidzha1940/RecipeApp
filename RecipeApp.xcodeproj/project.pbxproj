@@ -21,6 +21,7 @@
 		E4FE73732A7ACA9200593AB3 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73722A7ACA9200593AB3 /* RecipeCard.swift */; };
 		E4FE73752A7AD4D000593AB3 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73742A7AD4D000593AB3 /* RecipeList.swift */; };
 		E4FE73772A7AD93500593AB3 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73762A7AD93500593AB3 /* RecipeView.swift */; };
+		E4FE73792A7AF8DB00593AB3 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E4FE73722A7ACA9200593AB3 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		E4FE73742A7AD4D000593AB3 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		E4FE73762A7AD93500593AB3 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				E4FE73762A7AD93500593AB3 /* RecipeView.swift */,
+				E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				E4B682B22A79C61200856171 /* CategoriesView.swift in Sources */,
 				E4B682B42A79C62600856171 /* NewRecipeView.swift in Sources */,
 				E4B682BA2A79C97300856171 /* TabBar.swift in Sources */,
+				E4FE73792A7AF8DB00593AB3 /* CategoryView.swift in Sources */,
 				E4B682B62A79C63500856171 /* FavoritesView.swift in Sources */,
 				E4FE73772A7AD93500593AB3 /* RecipeView.swift in Sources */,
 				E4FE73752A7AD4D000593AB3 /* RecipeList.swift in Sources */,
