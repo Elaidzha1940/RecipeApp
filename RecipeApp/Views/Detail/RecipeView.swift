@@ -42,7 +42,25 @@ struct RecipeView: View {
                     .font(.largeTitle)
                     .bold()
                     .multilineTextAlignment(.center)
+                
+                VStack(alignment: .leading, spacing: 30) {
+                    Text(recipe.description)
+                    
+                    VStack(alignment: .leading, spacing: 20) {
+                        Text("Ingredients")
+                            .font(.headline)
+                        Text(recipe.description)
+                    }
+                    
+                    VStack(alignment: .leading, spacing: 20) {
+                        Text("Directions")
+                            .font(.headline)
+                        Text(recipe.directions)
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
+            .padding(.horizontal)
         }
         .ignoresSafeArea(.container, edges: .top)
     }
