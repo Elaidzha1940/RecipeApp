@@ -15,10 +15,15 @@ struct RecipeCard: View {
     
     var recipe: Recipe
     
-    
     var body: some View {
         
-        Text(recipe.name)
+        VStack {
+            AsyncImage(url: URL(string: recipe.image)) { image in
+                image
+            } placeholder: {
+                Image(systemName: "photo")
+            }
+        }
     }
 }
 
