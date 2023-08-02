@@ -24,6 +24,9 @@ struct RecipeCard: View {
                 Image(systemName: "photo")
             }
         }
+        .frame(width: 160, height: 220, alignment: .top)
+        .background(LinearGradient(gradient: Gradient(colors: [Color(.gray).opacity(0.3), Color(.gray)]), startPoint: .top, endPoint: .bottom))
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }
 
