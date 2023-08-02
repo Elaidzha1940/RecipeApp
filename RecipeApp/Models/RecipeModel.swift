@@ -45,11 +45,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -57,11 +57,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -69,11 +69,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -81,11 +81,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -93,11 +93,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -105,11 +105,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
         
@@ -117,11 +117,11 @@ extension Recipe {
             
             name: "Cake",
             image: "",
-            description: "",
-            ingredients: "",
-            directions: "",
-            category: "",
-            datePublished: "",
+            description: "Cake",
+            ingredients: "Cake",
+            directions: "Cake",
+            category: "Cake",
+            datePublished: "Cake",
             url: ""
         ),
     ]
