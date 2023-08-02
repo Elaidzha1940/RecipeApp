@@ -23,7 +23,7 @@ struct RecipeView: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                   
+                
             } placeholder: {
                 Image(systemName: "photo")
                     .resizable()
@@ -37,7 +37,6 @@ struct RecipeView: View {
             .background(LinearGradient(gradient: Gradient(colors: [Color(.gray).opacity(0.3), Color(.gray)]), startPoint: .top, endPoint: .bottom))
             
             VStack(spacing: 30) {
-                
                 Text(recipe.name)
                     .font(.largeTitle)
                     .bold()
