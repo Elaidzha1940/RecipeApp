@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 02.08.2023
 //
-//  S
+//  Status: in progress | Decorated
 //
 //  */
 
@@ -40,6 +40,9 @@ struct RecipeList: View {
 
 struct RecipeList_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeList(recipes: Recipe.all)
+        ScrollView {
+            
+            RecipeList(recipes: Recipe.all)
+        }
     }
 }
