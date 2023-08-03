@@ -22,6 +22,7 @@
 		E4FE73752A7AD4D000593AB3 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73742A7AD4D000593AB3 /* RecipeList.swift */; };
 		E4FE73772A7AD93500593AB3 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73762A7AD93500593AB3 /* RecipeView.swift */; };
 		E4FE73792A7AF8DB00593AB3 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */; };
+		E4FE737B2A7C1B9D00593AB3 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE737A2A7C1B9D00593AB3 /* AddRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E4FE73742A7AD4D000593AB3 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		E4FE73762A7AD93500593AB3 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		E4FE737A2A7C1B9D00593AB3 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				E4FE73762A7AD93500593AB3 /* RecipeView.swift */,
 				E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */,
+				E4FE737A2A7C1B9D00593AB3 /* AddRecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FE737B2A7C1B9D00593AB3 /* AddRecipeView.swift in Sources */,
 				E4B682B82A79C64100856171 /* SettingsView.swift in Sources */,
 				E4FE73732A7ACA9200593AB3 /* RecipeCard.swift in Sources */,
 				E4B682B22A79C61200856171 /* CategoriesView.swift in Sources */,
