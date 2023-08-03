@@ -13,7 +13,29 @@ import SwiftUI
 
 struct AddRecipeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            Form {
+                Section(header: Text("Name")) {
+                    
+                }
+                Section(header: Text("Name")) {
+                    
+                }
+                Section(header: Text("Name")) {
+                    
+                }
+                Section(header: Text("Name")) {
+                    
+                }
+                Section(header: Text("Name")) {
+                    
+                }
+            }
+            .navigationTitle("New Recipe")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
