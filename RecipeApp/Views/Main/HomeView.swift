@@ -19,7 +19,8 @@ struct HomeView: View {
                 
                 RecipeList(recipes: Recipe.all)
             }
-            .navigationTitle("My Recipe")
+            .navigationTitle("Menu")
+            .font(.custom(, size: <#T##CGFloat#>))
         }
         .navigationViewStyle(.stack)
     }

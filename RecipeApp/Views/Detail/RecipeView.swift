@@ -65,6 +65,7 @@ struct RecipeView: View {
                         }
                     }
                 }
+                .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
             .padding(.horizontal)
