@@ -15,7 +15,9 @@ struct NewRecipeView: View {
     var body: some View {
         
         NavigationView {
-            
+            Button("Add recipe manually") {
+                
+            }
             Text("New Recipe")
                 .navigationTitle("New Recipe")
         }
