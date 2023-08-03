@@ -40,17 +40,38 @@ struct AddRecipeView: View {
                 }
                 
                 Section(header: Text("Descriptions")) {
-                    
+                    TextEditor(text: $descriptions)
                 }
                 
                 Section(header: Text("Ingredients")) {
-                    
+                    TextEditor(text: $ingredients)
+
                 }
                 
                 Section(header: Text("Directions")) {
-                    
+                    TextEditor(text: $directions)
+
                 }
             }
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        //action
+                    } label: {
+                        Label("Cancel", systemImage: "xmark")
+                    }
+                }
+                
+                ToolbarItem {
+                    Button {
+                        //action
+                    } label: {
+                        Label("Done", systemImage: "checkmark")
+                            //.labelsHidden()
+                    }
+                    .disabled(name.isEmpty)
+                }
+            })
             .navigationTitle("New Recipe")
             .navigationBarTitleDisplayMode(.inline)
         }
