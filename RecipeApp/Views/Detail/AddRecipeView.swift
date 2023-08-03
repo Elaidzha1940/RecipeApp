@@ -12,23 +12,31 @@
 import SwiftUI
 
 struct AddRecipeView: View {
+    
+    @State private var name: String = ""
+    @State private var selectedCategory: Category = Category.main
+    @State private var descriptions: String = ""
+    @State private var ingredients: String = ""
+    @State private var directions: String = ""
+    
+    
     var body: some View {
         
         NavigationView {
             Form {
                 Section(header: Text("Name")) {
+                    TextField("Recipe Name", text: $name)
+                }
+                Section(header: Text("Category")) {
                     
                 }
-                Section(header: Text("Name")) {
+                Section(header: Text("Descriptions")) {
                     
                 }
-                Section(header: Text("Name")) {
+                Section(header: Text("Ingredients")) {
                     
                 }
-                Section(header: Text("Name")) {
-                    
-                }
-                Section(header: Text("Name")) {
+                Section(header: Text("Directions")) {
                     
                 }
             }
