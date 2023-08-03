@@ -33,7 +33,7 @@ struct RecipeView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
             }
-            .frame(height: 300)
+            .scaledToFit()
             .background(LinearGradient(gradient: Gradient(colors: [Color(.gray).opacity(0.3), Color(.gray)]), startPoint: .top, endPoint: .bottom))
             
             VStack(spacing: 30) {
