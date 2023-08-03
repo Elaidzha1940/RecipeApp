@@ -38,8 +38,7 @@ struct RecipeView: View {
             
             VStack(spacing: 30) {
                 Text(recipe.name)
-                    .font(.largeTitle)
-                    .bold()
+                    .font(.system(size: 30, weight: .medium, design: .serif))
                     .multilineTextAlignment(.center)
                 
                 VStack(alignment: .leading, spacing: 30) {
@@ -50,8 +49,8 @@ struct RecipeView: View {
                     if !recipe.ingredients.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Ingredients")
-                                .font(.headline)
-                            
+                                .font(.system(size: 30, weight: .medium, design: .rounded))
+
                             Text(recipe.description)
                         }
                     }
@@ -59,15 +58,15 @@ struct RecipeView: View {
                     if !recipe.directions.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Directions")
-                                .font(.headline)
+                                .font(.system(size: 30, weight: .medium, design: .rounded))
                             
                             Text(recipe.directions)
                         }
                     }
                 }
-                .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
+            .padding()
             .padding(.horizontal)
         }
         .ignoresSafeArea(.container, edges: .top)

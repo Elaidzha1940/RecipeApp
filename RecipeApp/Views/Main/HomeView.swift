@@ -20,7 +20,8 @@ struct HomeView: View {
                 RecipeList(recipes: Recipe.all)
             }
             .navigationTitle("Menu")
-            .font(.custom(, size: <#T##CGFloat#>))
+            .font(.system(size: 30, weight: .medium, design: .serif))
+            
         }
         .navigationViewStyle(.stack)
     }

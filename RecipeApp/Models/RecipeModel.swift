@@ -155,7 +155,7 @@ extension Recipe {
             
             name: "The Sea Shell",
             image: "https://www.ok-magazine.ru/images/cache/2019/7/19/fit_795_547_false_crop_1181_787_0_0_q90_31881_b1e1ee80ba5ab87091c8a2548.jpeg",
-            description: "Sea scallops with golden beets, rasberries and tarragon",
+            description: "Sea scallops with golden beets, rasberries and tarragon.",
             ingredients: "",
             directions: "",
             category: "Main",

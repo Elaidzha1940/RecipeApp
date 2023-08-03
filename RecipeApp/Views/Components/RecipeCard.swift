@@ -24,7 +24,7 @@ struct RecipeCard: View {
                     .aspectRatio(contentMode: .fill)
                     .overlay(alignment: .bottom) {
                         Text(recipe.name)
-                            .font(.headline)
+                            .font(.system(size: 20, weight: .medium, design: .rounded))
                             .foregroundColor(.white)
                             .shadow(color: .black, radius: 3, x: 0, y: 0)
                             .frame(maxWidth: 130)
@@ -39,7 +39,7 @@ struct RecipeCard: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .overlay(alignment: .bottom) {
                         Text(recipe.name)
-                            .font(.headline)
+                            .font(.system(size: 20, weight: .medium, design: .rounded))
                             .foregroundColor(.white)
                             .shadow(color: .black, radius: 3, x: 0, y: 0)
                             .frame(maxWidth: 130)
