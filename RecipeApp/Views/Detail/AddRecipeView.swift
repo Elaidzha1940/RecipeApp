@@ -24,18 +24,29 @@ struct AddRecipeView: View {
         
         NavigationView {
             Form {
+                
                 Section(header: Text("Name")) {
                     TextField("Recipe Name", text: $name)
                 }
+                
                 Section(header: Text("Category")) {
-                    
+                    Picker("Category", selection: $selectedCategory) {
+                        ForEach(Category.allCases) { category in
+                            Text(category.rawValue)
+                                .tag(category)
+                        }
+                    }
+                    .pickerStyle(.menu)
                 }
+                
                 Section(header: Text("Descriptions")) {
                     
                 }
+                
                 Section(header: Text("Ingredients")) {
                     
                 }
+                
                 Section(header: Text("Directions")) {
                     
                 }
