@@ -73,6 +73,7 @@ struct AddRecipeView: View {
                             .navigationBarBackButtonHidden(true)
                     } label: {
                         Button {
+                            saveRecipe()
                             navigateToRecipe = true
                         } label: {
                             Label("Done", systemImage: "checkmark")
@@ -91,5 +92,12 @@ struct AddRecipeView: View {
 struct AddRecipeView_Previews: PreviewProvider {
     static var previews: some View {
         AddRecipeView()
+    }
+}
+
+extension AddRecipeView {
+    private func saveRecipe() {
+        let recipe = Recipe(name: name, image: "", description: descriptions, ingredients: ingredients, directions: descriptions, category: selectedCategory.rawValue, datePublished: "", url: "")
+        recipesVM.addRecipe(recipe: recipe)
     }
 }
