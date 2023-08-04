@@ -23,6 +23,7 @@
 		E4FE73772A7AD93500593AB3 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73762A7AD93500593AB3 /* RecipeView.swift */; };
 		E4FE73792A7AF8DB00593AB3 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */; };
 		E4FE737B2A7C1B9D00593AB3 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE737A2A7C1B9D00593AB3 /* AddRecipeView.swift */; };
+		E4FE737D2A7CC71400593AB3 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE737C2A7CC71400593AB3 /* RecipesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E4FE73762A7AD93500593AB3 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E4FE73782A7AF8DB00593AB3 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E4FE737A2A7C1B9D00593AB3 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		E4FE737C2A7CC71400593AB3 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		E4B682AA2A79C52200856171 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E4FE737C2A7CC71400593AB3 /* RecipesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				E4FE73752A7AD4D000593AB3 /* RecipeList.swift in Sources */,
 				E4B682B02A79C60300856171 /* HomeView.swift in Sources */,
 				E4B6829D2A79A65900856171 /* ContentView.swift in Sources */,
+				E4FE737D2A7CC71400593AB3 /* RecipesViewModel.swift in Sources */,
 				E4B6829B2A79A65900856171 /* RecipeAppApp.swift in Sources */,
 				E4B682BC2A79CE2A00856171 /* RecipeModel.swift in Sources */,
 			);
