@@ -61,22 +61,20 @@ struct AddRecipeView: View {
                         dismiss()
                     } label: {
                         Label("Cancel", systemImage: "xmark")
+                            .labelStyle(.iconOnly)
                     }
                 }
                 
                 ToolbarItem {
                     NavigationLink(isActive: $navigateToRecipe) {
-                        RecipeView(recipe: Recipe.all.sorred{ $0.Published > $1.datePublished} [0])
+                        RecipeView(recipe: Recipe.all.sorted { $0.datePublished > $1.datePublished} [0])
                             .navigationBarBackButtonHidden(true)
                     } label: {
-                        <#code#>
-                    }
-
-                    Button {
-                        navigateToRecipe = true
-                    } label: {
-                        Label("Done", systemImage: "checkmark")
-                            //.labelsHidden()
+                        Button {
+                            navigateToRecipe = true
+                        } label: {
+                            Label("Done", systemImage: "checkmark")
+                        }
                     }
                     .disabled(name.isEmpty)
                 }
