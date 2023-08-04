@@ -12,6 +12,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var recipesVM: RecipesViewModel
+    
     var body: some View {
         
         NavigationView {
