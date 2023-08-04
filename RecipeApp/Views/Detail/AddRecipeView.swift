@@ -13,6 +13,8 @@ import SwiftUI
 
 struct AddRecipeView: View {
     
+    @EnvironmentObject var recipesVM: RecipesViewModel
+ 
     @State private var name: String = ""
     @State private var selectedCategory: Category = Category.main
     @State private var descriptions: String = ""

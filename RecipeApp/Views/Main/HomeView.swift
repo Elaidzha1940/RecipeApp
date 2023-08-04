@@ -20,7 +20,7 @@ struct HomeView: View {
         NavigationView {
             ScrollView {
                 
-                RecipeList(recipes: Recipe.all)
+                RecipeList(recipes: recipesVM.recipes)
             }
             .navigationTitle("Menu")
             .font(.system(size: 30, weight: .medium, design: .serif))
@@ -33,5 +33,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(RecipesViewModel())
     }
 }
